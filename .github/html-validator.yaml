@@ -1,0 +1,8 @@
+name: A workflow for html validation
+on: push
+jobs:
+  build:
+    name: HTML validation
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: roydondsouza/html-validator-action@master
