@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: ./html-validator-action
+    - uses: ./action-html-validator
 
 
 
