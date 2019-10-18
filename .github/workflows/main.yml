@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+    - gh-pages
+  pull_request:
+    branches:
+    - master
+    - gh-pages
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: roydondsouza/html-validator-action@master
+
+
+
