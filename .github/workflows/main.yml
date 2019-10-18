@@ -1,4 +1,4 @@
-name: CI
+name: HTML Validator
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: roydondsouza/html-validator-action@master
+    - uses: ./html-validator-action
 
 
 
